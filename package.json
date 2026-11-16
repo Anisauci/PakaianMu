@@ -2,6 +2,7 @@
   "name": "pakaianmu",
   "private": true,
   "version": "1.0.0",
+  "engines": { "node": "22.x" },
   "type": "module",
   "description": "Katalog dan dashboard produk UMKM baju trift dengan peran admin, seller, dan pembeli",
   "scripts": {
