@@ -1,0 +1,22 @@
+{
+  "name": "pakaianmu",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Katalog dan dashboard produk UMKM baju trift dengan peran admin, seller, dan pembeli",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server/index.js",
+    "dev:full": "node server/index.js & vite",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
